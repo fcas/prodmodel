@@ -1,0 +1,21 @@
+[project]
+name = "prodmodel"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "fcas",email = "f3l1nux@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "boto3 (>=1.43.72,<2.0.0)",
+    "numpy (>=2.5.2,<3.0.0)",
+    "pylint (>=4.0.7,<5.0.0)",
+    "pyshp (>=3.1.6,<4.0.0)",
+    "pytest (>=9.1.1,<10.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
